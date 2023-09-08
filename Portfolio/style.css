@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Font Family */
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Montserrat', sans-serif; */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html , body {
+    font-size: 14px;
+    font-weight: 400;
+    background: #fff;
+    color: #000000;
+}
+
+.container {
+	width: 1100px;
+	margin: 0px auto;
+	display: table;
+}
+
+
+.width-33 {
+	width: 33%;
+	float: left;
+    padding-left: 20px;
+}
+
+.width-66 {
+	width: 96%;
+	float: left;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.main-panel{
+    width: 10vw;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    height: 100vh;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.span-col{
+    color: #39FF14;
+}
+nav{
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 20px;
+    color: #000000;
+}
+
+.about-me-info{
+    float: left;
+    width: 50%;
+}
+
+.banner-section{
+    width: 100%;
+    float: left;
+    margin: 25vh;
+}
+
+.banner-section h1 {
+	font-size: 48px;
+	margin-top: 10px;
+	font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+}
+
+.banner-section h1 .span-col{
+    font-family: 'Dancing Script', cursive;
+}
+
+.banner-section h2 {
+	font-size: 20px;
+	line-height: 25px;
+	margin-top: 10px;
+	font-weight: 400;
+}
+.banner-section a {
+	float: left;
+	text-decoration: none;
+	font-size: 18px;
+	margin-top: 20px;
+	border-radius: 50%;
+	text-align: center;
+	border: 2px solid #39FF14;
+	color: #39FF14;
+	margin-left: 10px;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+}
+
+.main-panel img {
+	margin-top: 10%;
+	width: 100%;
+	margin-left: 50%;
+}
+
+.main-section{
+    width: 100%;
+    float: left;
+    padding: 110px 0px 110px 0px;
+}
+
+.width-100{
+    width: 100%;
+    float: left;
+}
+
+.table-info{
+    margin-top: 20px;
+}
+
+.heading-text{
+    width: 100%;
+    float: left;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #39FF14;
+}
+
+.about-img{
+    width: 100%;
+    padding:0px 10px;
+}
+
+.about-me{
+    width: 120%;
+    float: left;
+    margin-left: 30%;
+}
+
+.about-me p{
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 27px;
+}
+
+table{
+    width: 100%;
+}
+
+table th, table td  {
+    font-size: 16px;
+    text-align: left;
+    padding: 5px 0px;
+}
+
+#about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20%;
+}
