@@ -229,6 +229,7 @@ div[role="progressbar"] {
     flex-direction: row ;
     justify-content: center;
     align-items: center;
+	margin-left: 10%;
 }
 
 
@@ -240,12 +241,12 @@ div[role="progressbar"] {
 
 .circle-info{
     position: absolute;
-    margin-left: 70rem;
-    margin-top: 40px;
+    margin-left: 80rem;
+
 }
 
 .container-2{
-    margin-left: 15rem;
+    margin-left: 20rem;
     width: 75vw;
     height: 500px;
     display: flex;
@@ -339,7 +340,7 @@ textarea {
 }
 
 #project-header{
-    margin-left: 20%;
+    margin-left: 15%;
     font-size: 40px;
 }
 
@@ -362,11 +363,11 @@ textarea {
 
 }
 .footer-sect {
-	color: #b3b3b3;
+	color: #040404;
     margin-top: 30px;
 }
 .footer-sect a {
-	color: #b3b3b3;
+	color: #0f0f0f;
     width: 100vw;
 	margin-left: 10px;
 	text-decoration: none;
@@ -376,7 +377,7 @@ textarea {
 .social-icon a i {
 	width: 50px;
 	height: 50px;
-	border: 1px solid #cdcdcd;
+	border: 1px solid #0f0f0f;
 	line-height: 50px;
 	font-size: 20px;
 	border-radius: 50%;
