@@ -185,6 +185,8 @@ table th, table td  {
 .skill {
 	margin-top: 30px;
 	font-size: 17px;
+	margin: auto;
+	margin-left: 10%;
 }
 
 .skill span {
@@ -246,8 +248,9 @@ div[role="progressbar"] {
 }
 
 .container-2{
-    margin-left: 20rem;
-    width: 75vw;
+	margin: auto;
+	margin-left: 10%;
+    width: 100vw;
     height: 500px;
     display: flex;
     flex-direction: column;
